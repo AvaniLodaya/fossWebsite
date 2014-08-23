@@ -57,3 +57,6 @@ def info_det(request,info_type):
 	return render_to_response('info.html',{'is_loggedin':is_loggedin,'username':user_name, 'information':information, 'info_type':info_type},RequestContext(request))
 '''
 
+def chart(request):
+	return render(request, 'chart.html')
+

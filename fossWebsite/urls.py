@@ -14,6 +14,7 @@ urlpatterns += patterns('fossWebsite.views',
     url(r'^home/$', 'home'),
     url(r'^$','homeredirect'),
     url(r'^search/','search'),
+    url(r'^chart/','chart'),
 #    url(r'^information/(?P<info_type>\w+)','info_det'),
 #    url(r'^information/','info_page'),
 
